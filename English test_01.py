@@ -126,10 +126,10 @@ main_frame.pack(pady=20)
 welcome_label = tk.Label(main_frame, text="歡迎使用英文測試軟體！請選擇測試模式：", font=("Arial", 18))
 welcome_label.pack(pady=10)
 
-mode1_btn = tk.Button(main_frame, text="1. 中翻英", command=lambda: select_mode(1), width=30, height=2, font=("Arial", 14))
+mode1_btn = tk.Button(main_frame, text="1. 中文翻英文", command=lambda: select_mode(1), width=30, height=2, font=("Arial", 14))
 mode1_btn.pack(pady=5)
 
-mode2_btn = tk.Button(main_frame, text="2. 英翻中", command=lambda: select_mode(2), width=30, height=2, font=("Arial", 14))
+mode2_btn = tk.Button(main_frame, text="2. 英文翻中文", command=lambda: select_mode(2), width=30, height=2, font=("Arial", 14))
 mode2_btn.pack(pady=5)
 
 mode3_btn = tk.Button(main_frame, text="3. 克漏字", command=lambda: select_mode(3), width=30, height=2, font=("Arial", 14))
